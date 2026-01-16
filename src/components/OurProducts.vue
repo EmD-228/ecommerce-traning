@@ -1,5 +1,5 @@
 <template>
-    <div class="grid gap-4 items-center text-center mx-auto">
+    <div class="grid gap-4 items-center text-center mx-auto max-w-7xl">
 
         <h2 class="text-4xl font-bold text-secondary mx-auto">Our Products</h2>
         <div class="grid grid-cols-4 gap-6">
@@ -8,7 +8,7 @@
                 :itemOldPrice="product.itemOldPrice" />
 
         </div>
-        <div class="text-primary text-center py-2 px-10 max-w-fit font-medium border border-primary mx-auto">
+        <div class="text-primary hover:border-green-900 hover:text-green-900 cursor-pointer transition-all duration-300 text-center py-2 px-10 max-w-fit font-medium border border-primary mx-auto">
             Show More</div>
 
 
@@ -16,6 +16,7 @@
 </template>
 <script setup lang="ts">
 import data from '../assets/data/data.json';
+import range1 from '../assets/images/range_1.png';
 import range2 from '../assets/images/range_2.png';
 import range3 from '../assets/images/range_3.png';
 import room1 from '../assets/images/room_1.png';
