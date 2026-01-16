@@ -7,7 +7,9 @@
                 <h6>New Arrival</h6>
                 <h1 class="text-4xl font-bold text-primary mx-auto">Discover Our New Collection</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
-                <div class="bg-primary text-primary-content text-center py-4 px-10 max-w-fit font-bold">Buy Now</div>
+                <div
+                    class="bg-primary hover:bg-green-900 cursor-pointer transition-all duration-300 text-primary-content text-center py-4 px-10 max-w-fit font-bold">
+                    Buy Now</div>
             </div>
         </div>
 
