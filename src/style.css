@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true; /* set as default */
+  prefersdark: true; /* set as default dark mode (prefers-color-scheme:dark) */
+  color-scheme: light; /* color of browser-provided UI */
+
+  
+  --color-primary: #B88E2F;
+  --color-primary-content: #F9FAFB;
+  --color-secondary: #1F2937;
+  --color-secondary-content: #F9FAFB;
+  --color-accent: #FFF3E3;
+  --color-accent-content: #1F2937;
+  --color-base-100: #F4F5F7;
+
+}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #1F2937;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

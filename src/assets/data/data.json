@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "image": "range_1",
+            "itemName": "Modern Dining Table",
+            "itemDescription": "Elegant wooden dining table with 6 seats, perfect for family gatherings",
+            "itemPrice": 2500000,
+            "itemOldPrice": 3000000
+        },
+        {
+            "id": 2,
+            "image": "range_2",
+            "itemName": "Comfortable Sofa Set",
+            "itemDescription": "3-seater luxury sofa with matching cushions, ideal for living room",
+            "itemPrice": 4500000,
+            "itemOldPrice": 5500000
+        },
+        {
+            "id": 3,
+            "image": "range_3",
+            "itemName": "Queen Size Bed Frame",
+            "itemDescription": "Premium wooden bed frame with storage drawers, includes headboard",
+            "itemPrice": 3200000,
+            "itemOldPrice": 4000000
+        },
+        {
+            "id": 4,
+            "image": "room_1",
+            "itemName": "Executive Office Desk",
+            "itemDescription": "Spacious work desk with drawers and cable management system",
+            "itemPrice": 1800000,
+            "itemOldPrice": 2200000
+        },
+        {
+            "id": 5,
+            "image": "room_2",
+            "itemName": "Coffee Table Set",
+            "itemDescription": "Modern glass-top coffee table with matching side tables",
+            "itemPrice": 1200000,
+            "itemOldPrice": 1500000
+        },
+        {
+            "id": 6,
+            "image": "room_3",
+            "itemName": "Wardrobe Closet",
+            "itemDescription": "Large 4-door wardrobe with mirror, perfect for bedroom storage",
+            "itemPrice": 2800000,
+            "itemOldPrice": 3500000
+        },
+        {
+            "id": 7,
+            "image": "range_1",
+            "itemName": "Dining Chair Set",
+            "itemDescription": "Set of 4 ergonomic dining chairs with cushioned seats",
+            "itemPrice": 1500000,
+            "itemOldPrice": 1800000
+        },
+        {
+            "id": 8,
+            "image": "range_2",
+            "itemName": "TV Stand Cabinet",
+            "itemDescription": "Contemporary TV stand with shelves and storage compartments",
+            "itemPrice": 950000,
+            "itemOldPrice": 1200000
+        }
+    ]
+}
