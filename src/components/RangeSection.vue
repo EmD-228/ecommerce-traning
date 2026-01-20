@@ -1,11 +1,11 @@
 <template>
     <div class="grid gap-10 items-center text-center mx-auto">
         <div class="space-y-2">
-            <h2 class="text-4xl font-bold text-secondary mx-auto">Browse The Range</h2>
-            <p class="text-secondary mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+            <h2 class="text-2xl sm:text-4xl font-bold text-secondary mx-auto">Browse The Range</h2>
+            <p class="text-sm sm:text-base text-secondary mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
             </p>
         </div>
-        <div class="grid grid-cols-3 gap-4">
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 px-4 lg:px-0 justify-center ">
             <RangeItem :image="range1" itemName="Dining" />
             <RangeItem :image="range2" itemName="Living" />
             <RangeItem :image="range3" itemName="Bedroom" />
