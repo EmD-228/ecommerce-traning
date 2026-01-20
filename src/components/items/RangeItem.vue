@@ -1,5 +1,5 @@
 <template>
-    <div class="space-y-4 justify-center items-center">
+    <div class="space-y-4">
         <img :src="image" alt="range-item" class="w-full max-h-78 object-cover rounded-lg">
         <h3 class="text-xl font-medium text-secondary">{{ itemName }}</h3>
     </div>
