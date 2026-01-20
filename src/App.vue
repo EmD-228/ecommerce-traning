@@ -9,14 +9,17 @@ import RoomsSection from './components/RoomsSection.vue';
 </script>
 
 <template>
-  <HeaderSection />
-  <section class="grid gap-10 pb-10">
-    <HeroSection />
-    <RangeSection />
-    <OurProducts />
-    <RoomsSection />
-    <FurnitureSection />
-    <FooterSection />
+  <section class="relative">
+
+    <HeaderSection class="sticky top-0 z-50"/>
+    <section class="space-y-10 pb-10">
+      <HeroSection />
+      <RangeSection />
+      <OurProducts />
+      <RoomsSection />
+      <FurnitureSection />
+      <FooterSection />
+    </section>
   </section>
 </template>
 
