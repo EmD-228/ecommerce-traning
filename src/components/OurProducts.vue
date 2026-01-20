@@ -1,8 +1,8 @@
 <template>
     <div class="grid gap-4 items-center text-center mx-auto max-w-7xl">
 
-        <h2 class="text-4xl font-bold text-secondary mx-auto">Our Products</h2>
-        <div class="grid grid-cols-4 gap-6">
+        <h2 class="text-2xl sm:text-4xl font-bold text-secondary mx-auto">Our Products</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 px-4 lg:px-0 place-items-stretch">
             <OurProductItem v-for="product in products" :key="product.id" :image="getImageUrl(product.image)"
                 :itemName="product.itemName" :itemDescription="product.itemDescription" :itemPrice="product.itemPrice"
                 :itemOldPrice="product.itemOldPrice" />
