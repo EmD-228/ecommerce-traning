@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="space-y-1 px-4 py-6 text-left">
-            <h3 class="text-xl font-medium text-secondary">{{ itemName }}</h3>
+            <h3 class="text-sm sm:text-xl font-bold sm:font-medium text-secondary">{{ itemName }}</h3>
             <p class="text-xs text-secondary">{{ itemDescription }}</p>
             <div class="flex flex-row gap-2">
                 <span class="text-sm font-medium text-secondary">Rp {{ formatPrice(itemPrice) }}</span>
