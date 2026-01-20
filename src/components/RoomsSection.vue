@@ -1,15 +1,18 @@
 <template>
-    <div class="grid grid-cols-3 gap-8 items-center text-center bg-accent py-5">
-        <div class="mx-22 text-left space-y-4">
-            <h2 class="text-4xl font-bold text-secondary mx-auto">50+ Beautiful rooms inspiration</h2>
+    <div class="flex flex-col sm:flex-row gap-8 items-center text-center bg-accent py-5">
+        <div class="flex-1 mx-4 sm:mx-8 lg:mx-22 text-left space-y-4">
+            <h2 class="text-2xl sm:text-4xl font-bold text-secondary mx-auto">50+ Beautiful rooms inspiration</h2>
             <p class="text-secondary mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
             </p>
             <div class="bg-primary text-primary-content text-center py-2 px-10 max-w-fit font-medium">Explore More</div>
 
 
         </div>
-        <div class="relative">
-            <img src="../assets/images/room_1.png" alt="rooms-image" class="max-w-full object-cover max-h-100">
+        <div class="relative sm:flex-1 mx-1 sm:mx-0">
+
+            <div class="max-w-full mx-4 sm:mx-0 ">
+                <img src="../assets/images/room_1.png" alt="rooms-image" class="object-cover">
+            </div>
             <div class="absolute bottom-4 left-4 flex justify-end">
                 <div class=" bg-white opacity-80 p-6">
                     <div class="text-center">
@@ -22,9 +25,9 @@
                 </div>
             </div>
         </div>
-        <div class="relative space-y-4">
+        <div class="relative flex-1 space-y-4 mx-4 sm:mx-0">
             <div class="carousel carousel-center max-w-full space-x-4  ">
-                <div class="absolute right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <div class="hidden sm:block absolute right-5 top-1/2 -translate-y-1/2 transform justify-between">
                     <a href="#slide2" class="btn btn-circle text-primary">❯</a>
                 </div>
                 <div class="carousel-item">
