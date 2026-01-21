@@ -20,20 +20,20 @@
         </div>
         <div v-if="isHover" class="absolute bottom-0 left-0 right-0 top-0 w-full h-full bg-black/40 p-6 flex flex-col items-center justify-center gap-4">
             <div
-                class="text-primary bg-white hover:text-primary-content hover:bg-primary cursor-pointer transition-all duration-300 text-center py-2 px-10 max-w-fit font-medium mx-auto">
+                class="text-primary bg-white hover:text-primary-content hover:bg-primary cursor-pointer transition-all duration-300 text-center py-2 px-4 sm:px-10 max-w-fit font-medium mx-auto">
                 Add To Cart</div>
-            <div class="text-center flex flex-row gap-4 items-center justify-center">
+            <div class="text-center flex flex-col sm:flex-row gap-4 items-center justify-center">
                 <div class="flex flex-row gap-2 items-center justify-center cursor-pointer">
                     <Hierarchy3Icon class="text-[#ffffff] h-4 w-4" />
-                    <span class="text-white text-xs">Share</span>
+                    <span class="text-white text-xs font-medium">Share</span>
                 </div>
-                <div class="flex flex-row gap-2 items-center justify-center cursor-pointer">
+                <div class="flex flex-row gap-2 items-center justify-center cursor-pointer ">
                     <Arrow2Icon class="text-[#ffffff] h-4 w-4" />
-                    <span class="text-white text-xs">Compare</span>
+                    <span class="text-white text-xs font-medium">Compare</span>
                 </div>
                 <div class="flex flex-row gap-2 items-center justify-center cursor-pointer">
                     <HeartIcon class="text-[#ffffff] h-4 w-4" />
-                    <span class="text-white text-xs">Like</span>
+                    <span class="text-white text-xs font-medium">Like</span>
                 </div>
 
             </div>
